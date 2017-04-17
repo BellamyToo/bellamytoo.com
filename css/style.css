@@ -101,6 +101,7 @@ a:focus{
 	text-align: center;
 	color: var(--main-color);
 }
+/* END OF HOME */
 
 /* Navigation */
 #tf-menu {
@@ -141,9 +142,9 @@ a:focus{
 }
 
 .logo {
-	font-family: 'Playball', cursive;
+	font-family: 'Raleway';
 }
-
+/* END OF NAVIGATION */
 /* About Section */
 #tf-about{
 	background: url(../img/15.jpg);
@@ -202,9 +203,11 @@ img.img-circle.about-img {
 	background: transparent;
 	border: 0;
 }
-/* Aristotle Quote Section */
-#tf-quote{
-	background: url(../img/aristotle.jpg);
+/* END OF ABOUT ME */
+
+/* Socrates Quote Section */
+#tf-socrates{
+	background: url(../img/socrates2.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -212,7 +215,7 @@ img.img-circle.about-img {
 	color: #ffffff;
 }
 
-#tf-quote .overlay{
+#tf-socrates .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -223,40 +226,23 @@ img.img-circle.about-img {
 	padding: 80px 0;
 	background-attachment: fixed;
 }
-#quote {
+#socrates {
 	padding: 30px 0;
 }
-#quote .item{
+#socrates .item{
     display: block;
     width: 100%;
     height: auto;
 }
 
-#quote .item p {
+#socrates .item p {
 	font-weight: 400;
 	margin: 30px 0;
 	color: #d1d1d1;
 }
+/* END OF SOCRATES QUOTE */
 
-/* Sevices Page */
-#tf-service{
-	padding: 7% 0;
-}
-
-.media-left.media-middle i {
-	padding: 20px 30px 20px 0;
-	font-size: 30px;
-	color: var(--main-color);
-
-}
-
-.media-body h4 {
-	margin-bottom: 20px;
-	font-size: 16px;
-	font-weight: 700;
-	color: var(--main-color);
-}
-
+/* Portfolio Section */
 #tf-portfolio{
 	background: #f1f1f1;
 	padding: 5%  0 8% 0;
@@ -336,6 +322,43 @@ ul.cat.list-inline li a:hover{
 .space{ padding: 20px}
 .toppadding{ padding-top: 30px}
 .nopadding{ padding:  0;}
+/* END OF PORTFOLIO */
+
+/* Aristotle Quote Section */
+#tf-aristotle{
+	background: url(../img/aristotle.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+#tf-aristotle .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.53) 17%,rgba(0,0,0,0.46) 35%,rgba(0,0,0,0.35) 62%,rgba(0,0,0,0.2) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	padding: 80px 0;
+	background-attachment: fixed;
+}
+#aristotle {
+	padding: 30px 0;
+}
+#aristotle .item{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#aristotle .item p {
+	font-weight: 400;
+	margin: 30px 0;
+	color: #d1d1d1;
+}
 
 #tf-why-me{
 	background: url(../img/10.jpg);
@@ -407,20 +430,18 @@ nav#tf-footer {
 	color: #f1f1f1;
 }
 
-
-
-/* Gallery Section 
+/* Gallery Section
 ==============================*/
-#tf-works{
-	padding: 80px 0;
+#tf-portfolio{
+	padding: 0px 0;
 }
-.categories{ 
+.categories{
 	padding: 10px 0;
 }
 ul.cat li{
 	display: inline-block;
 }
-#tf-works li.pull-right {
+#tf-portfolio li.pull-right {
 	margin-top: 10px;
 }
 ol.type li{
@@ -510,7 +531,7 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
-#tf-works i.fa {
+#tf-portfolio i.fa {
 	height: 30px;
 	width: 30px;
 	border: 1px solid #FCAC45;
@@ -526,37 +547,34 @@ ol.type li a.active { font-weight: 700; }
 Resume Timeline
 -----------------------------------------------------------*/
 #tf-resume{
-	background: url(../img/15.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	color: #000000
-	padding: 80px 0;
+    color: #000000
+    padding: 80px 0;
 }
 .section-title.center{
-	padding: 30px 0;
+    padding: 30px 0;
+    color: #000000;
 }
 .section-title h2,
 .section-title.center h2{
-	font-weight: 300;
+    font-weight: 300
+    color: #000000;
 }
 .section-title.center .line{
-	border-top: 4px solid var(--main-color);
-	height: 10px;
-	width: 60px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 20px;
+    border-top: 4px solid var(--main-color);
+    height: 10px;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .section-title.center hr {
-	border-top: 4px solid var(--main-color);
-	width: 40px;
-	text-align: center;
-	margin-top: 10px;
-	position: relative;
-	left: 1%;
+    border-top: 4px solid var(--main-color);
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    left: 1%;
 }
 .resume-title h3{
     text-align: center;
@@ -586,7 +604,7 @@ Resume Timeline
     top: -8px;
     width: 10px;
     height: 10px;
-    background-color: #e1e1e1;
+    background-color: var(--main-color);
     left: 50%;
     margin-left: -6px;
     -webkit-transform: rotate(45deg);
@@ -602,7 +620,7 @@ Resume Timeline
     bottom: -8px;
     width: 10px;
     height: 10px;
-    background-color: #e1e1e1;
+    background-color: var(--main-color);
     left: 50%;
     margin-left: -6px;
     -webkit-transform: rotate(45deg);
@@ -619,7 +637,7 @@ Resume Timeline
     bottom: 0;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #e1e1e1;
+    background-color: var(--main-color);
 }
 
 .timeline>li {
@@ -704,7 +722,7 @@ Resume Timeline
 }
 
 .timeline-heading h3 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
 }
 .timeline-heading span{
@@ -733,13 +751,13 @@ Resume Timeline
     float: left;
     width: 43%;
     text-align: right;
-    border: 1px solid #eee;
+    border: 1px solid var(--main-color);
     position: relative;
 }
 
 .timeline-content{
     position: relative;
-    padding: 24px;
+    padding: 16px;
     background-color: #fff;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
@@ -747,19 +765,8 @@ Resume Timeline
     transition: all 400ms;
 }
 
-.timeline-content::after{
-    border: 1px solid #eee;
-    width: 100%;
-    position: absolute;
-    content: "";
-    bottom: -3px;
-    height:10px;
-    left: 0;
-    z-index: -1;
-}
-
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
+    background: var(--main-color);
     color: #fff;
 }
 
@@ -773,26 +780,26 @@ Resume Timeline
 }
 .timeline>li .timeline-panel::before {
     left: 100%;
-    border-left: 12px solid #ECECEC;
+    border-left: 12px solid var(--main-color);
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid var(--main-color);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
     right: 100%;
-    border-right: 12px solid #ECECEC;
+    border-right: 12px solid var(--main-color);
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid var(--main-color);
     border-left: 0;
 }
 
@@ -814,7 +821,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid var(--main-color);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -827,7 +834,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid var(--main-color);
     border-left: 0;
 }
 
